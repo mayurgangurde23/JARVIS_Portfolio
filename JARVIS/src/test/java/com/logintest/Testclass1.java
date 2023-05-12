@@ -18,6 +18,7 @@ public class Testclass1 extends BaseTest1 {
 
 	@Test(priority = 1)
 	public void ClickonLoginwithPassword() throws InterruptedException{
+		System.out.println("nothing , just t chck git");
 		 loginpage.ClickOnLoginWithPasswordLink();	
 	}
 	@Test(priority = 2)
